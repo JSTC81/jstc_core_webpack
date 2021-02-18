@@ -1,0 +1,11 @@
+node_modules
+.vscode
+jstc_build
+min
+build
+babel
+out
+tsbuild
+@types
+build_core
+demo

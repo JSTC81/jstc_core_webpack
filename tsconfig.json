@@ -1,0 +1,41 @@
+{
+  "include": [
+    "src/**/*",
+    "type"
+  ],
+  "compilerOptions": {
+    "outDir": "build_core",
+    //"outFile": "./build_core/index.js",
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react",
+    "noEmit": false,
+    "removeComments": true,
+    "allowJs": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "checkJs": true,
+    "sourceMap": false,
+    "declaration": true,
+    "declarationMap": false,
+    "downlevelIteration": true,
+    "importHelpers": false,
+    "incremental": true,
+    "strictBindCallApply": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "lib": [
+      "ESNext",
+      "dom"
+    ]
+  }
+}

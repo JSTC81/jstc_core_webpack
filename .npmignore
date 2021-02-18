@@ -1,0 +1,14 @@
+node_modules
+src
+babel
+build_core/
+demo
+jstc_build/
+.vscode
+test
+out
+typedoc.json
+tsconfig.json
+.babelrc
+min
+tsconfig.tsbuildinfo
